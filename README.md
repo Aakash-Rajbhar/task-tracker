@@ -1,12 +1,35 @@
-# React + Vite
+# 📝 Task Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and functional task management app built with **React**, **Vite**, and **Tailwind CSS**. Features include user login, task creation with priority, due dates, tagging, filtering, and persistent storage — all styled with modern UI and smooth animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Login with persistent localStorage
+- ✅ Add, edit, delete tasks
+- ✅ Mark tasks as complete or pending
+- ✅ Task priorities (Low, Medium, High)
+- ✅ Due dates and tags
+- ✅ Filter by status (All, Completed, Pending)
+- ✅ Search functionality
+- ✅ Framer Motion animations
+- ✅ Clean and minimal light-only design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🎞 Framer Motion
+- 💾 LocalStorage
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/aakash-rajbhar/task-tracker.git
+cd task-tracker
+npm install
+npm run dev
+```
